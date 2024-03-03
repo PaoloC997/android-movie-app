@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable logo
+drawable placeholder
+id linearLayout
+id movie_overview
+id movie_poster
+id movie_rating
+id movie_release_date
+id movie_title
+id recycler_view
+layout activity_main
+layout activity_movie_detail
+layout movie_list_item
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style AppTheme
+style Theme.TrabajoFinal
+xml backup_rules
+xml data_extraction_rules

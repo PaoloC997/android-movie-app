@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.trabajofinal.app-mergeDebugResources-12:/layout/activity_movie_detail.xml",
+        "source": "com.example.trabajofinal.app-main-15:/layout/activity_movie_detail.xml"
+    },
+    {
+        "merged": "com.example.trabajofinal.app-mergeDebugResources-12:/layout/activity_main.xml",
+        "source": "com.example.trabajofinal.app-main-15:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.trabajofinal.app-mergeDebugResources-12:/layout/movie_list_item.xml",
+        "source": "com.example.trabajofinal.app-main-15:/layout/movie_list_item.xml"
+    }
+]

@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.trabajofinal"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <queries>
+13-->[com.google.ar:core:1.25.0] C:\Users\paolo\.gradle\caches\transforms-3\ec18b2f491925c46461646eeeb7a33be\transformed\jetified-core-1.25.0\AndroidManifest.xml:29:5-31:15
+14        <package android:name="com.google.ar.core" />
+14-->[com.google.ar:core:1.25.0] C:\Users\paolo\.gradle\caches\transforms-3\ec18b2f491925c46461646eeeb7a33be\transformed\jetified-core-1.25.0\AndroidManifest.xml:30:9-54
+14-->[com.google.ar:core:1.25.0] C:\Users\paolo\.gradle\caches\transforms-3\ec18b2f491925c46461646eeeb7a33be\transformed\jetified-core-1.25.0\AndroidManifest.xml:30:18-51
+15    </queries>
+16
+17    <application
+17-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:7:5-26:19
+18        android:allowBackup="true"
+18-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:8:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.3.2] C:\Users\paolo\.gradle\caches\transforms-3\ab83b3efb83527c15e5237b0bb62fd2c\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@drawable/logo"
+21-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:9:9-38
+22        android:label="BuscaPelis"
+22-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:10:9-35
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:11:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:12:9-35
+25        android:testOnly="true" >
+26        <activity
+26-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:14:9-21:20
+27            android:name="com.example.trabajofinal.MainActivity"
+27-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:14:19-47
+28            android:exported="true"
+28-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:15:13-36
+29            android:theme="@style/AppTheme" >
+29-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:16:13-44
+30            <intent-filter>
+30-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:17:13-20:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:18:17-69
+31-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:18:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:19:17-77
+33-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:19:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:23:9-24:46
+37            android:name="com.example.trabajofinal.MovieDetailActivity"
+37-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:23:19-54
+38            android:theme="@style/AppTheme" />
+38-->C:\Users\paolo\AndroidStudioProjects\trabajoFinal\app\src\main\AndroidManifest.xml:24:13-44
+39
+40        <provider
+40-->[com.squareup.picasso:picasso:2.71828] C:\Users\paolo\.gradle\caches\transforms-3\c988489dfe51ca8a0c36201ff493807b\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+41            android:name="com.squareup.picasso.PicassoProvider"
+41-->[com.squareup.picasso:picasso:2.71828] C:\Users\paolo\.gradle\caches\transforms-3\c988489dfe51ca8a0c36201ff493807b\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+42            android:authorities="com.example.trabajofinal.com.squareup.picasso"
+42-->[com.squareup.picasso:picasso:2.71828] C:\Users\paolo\.gradle\caches\transforms-3\c988489dfe51ca8a0c36201ff493807b\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+43            android:exported="false" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
+43-->[com.squareup.picasso:picasso:2.71828] C:\Users\paolo\.gradle\caches\transforms-3\c988489dfe51ca8a0c36201ff493807b\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+44        <meta-data
+44-->[com.google.ar:core:1.25.0] C:\Users\paolo\.gradle\caches\transforms-3\ec18b2f491925c46461646eeeb7a33be\transformed\jetified-core-1.25.0\AndroidManifest.xml:36:9-38:41
+45            android:name="com.google.ar.core.min_apk_version"
+45-->[com.google.ar:core:1.25.0] C:\Users\paolo\.gradle\caches\transforms-3\ec18b2f491925c46461646eeeb7a33be\transformed\jetified-core-1.25.0\AndroidManifest.xml:37:13-62
+46            android:value="210910000" /> <!-- This activity is critical for installing ARCore when it is not already present. -->
+46-->[com.google.ar:core:1.25.0] C:\Users\paolo\.gradle\caches\transforms-3\ec18b2f491925c46461646eeeb7a33be\transformed\jetified-core-1.25.0\AndroidManifest.xml:38:13-38
+47        <activity
+47-->[com.google.ar:core:1.25.0] C:\Users\paolo\.gradle\caches\transforms-3\ec18b2f491925c46461646eeeb7a33be\transformed\jetified-core-1.25.0\AndroidManifest.xml:40:9-46:80
+48            android:name="com.google.ar.core.InstallActivity"
+48-->[com.google.ar:core:1.25.0] C:\Users\paolo\.gradle\caches\transforms-3\ec18b2f491925c46461646eeeb7a33be\transformed\jetified-core-1.25.0\AndroidManifest.xml:41:13-62
+49            android:configChanges="keyboardHidden|orientation|screenSize"
+49-->[com.google.ar:core:1.25.0] C:\Users\paolo\.gradle\caches\transforms-3\ec18b2f491925c46461646eeeb7a33be\transformed\jetified-core-1.25.0\AndroidManifest.xml:42:13-74
+50            android:excludeFromRecents="true"
+50-->[com.google.ar:core:1.25.0] C:\Users\paolo\.gradle\caches\transforms-3\ec18b2f491925c46461646eeeb7a33be\transformed\jetified-core-1.25.0\AndroidManifest.xml:43:13-46
+51            android:exported="false"
+51-->[com.google.ar:core:1.25.0] C:\Users\paolo\.gradle\caches\transforms-3\ec18b2f491925c46461646eeeb7a33be\transformed\jetified-core-1.25.0\AndroidManifest.xml:44:13-37
+52            android:launchMode="singleTop"
+52-->[com.google.ar:core:1.25.0] C:\Users\paolo\.gradle\caches\transforms-3\ec18b2f491925c46461646eeeb7a33be\transformed\jetified-core-1.25.0\AndroidManifest.xml:45:13-43
+53            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+53-->[com.google.ar:core:1.25.0] C:\Users\paolo\.gradle\caches\transforms-3\ec18b2f491925c46461646eeeb7a33be\transformed\jetified-core-1.25.0\AndroidManifest.xml:46:13-77
+54
+55        <provider
+55-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\paolo\.gradle\caches\transforms-3\092a00b43fbe50bffb8a510abd1720c2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+56            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\paolo\.gradle\caches\transforms-3\092a00b43fbe50bffb8a510abd1720c2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+57            android:authorities="com.example.trabajofinal.lifecycle-process"
+57-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\paolo\.gradle\caches\transforms-3\092a00b43fbe50bffb8a510abd1720c2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+58            android:exported="false"
+58-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\paolo\.gradle\caches\transforms-3\092a00b43fbe50bffb8a510abd1720c2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+59            android:multiprocess="true" />
+59-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\paolo\.gradle\caches\transforms-3\092a00b43fbe50bffb8a510abd1720c2\transformed\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+60    </application>
+61
+62</manifest>
