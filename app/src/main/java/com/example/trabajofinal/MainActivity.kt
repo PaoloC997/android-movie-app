@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         recyclerView.adapter = movieAdapter // asignar el adaptador a la RecyclerView
 
         // hacer una solicitud a la API para obtener los datos de las películas populares
-        val apiKey = "f6c72de9edbfdf44809db9ae34fcd291"
+        val apiKey = "yourapikey"
         val url = "https://api.themoviedb.org/3/movie/popular?api_key=$apiKey"
         val request = JsonObjectRequest(
             Request.Method.GET, url, null,
